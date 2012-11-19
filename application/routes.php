@@ -32,10 +32,14 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('home.index');
-});
+//Routes to an array of of the controllers inthe Controller directory.
+// Route::controller('home');
+Route::controller(Controller::detect());
+
+// Route::get('/', function()
+// {
+// 	return View::make('home.index');
+// });
 
 /*
 |--------------------------------------------------------------------------
