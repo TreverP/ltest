@@ -32,9 +32,18 @@
 |
 */
 
+
+
+
 // Controller Routes
 Route::controller('home');
+
+// Route::get('superwelcome/(:any)/(:any)', 'home@welcome');
+
+// Gives access to all routes located in the Controller folder
 // Route::controller(Controller::detect());
+
+
 
 // Route::get('/', function()
 // {

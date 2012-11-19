@@ -4,17 +4,17 @@ class Home_Controller extends Base_Controller {
 
 	//RESTful Controllers Setup
 
-	public $restful = true;
+	// public $restful = true;
 
-	public function get_index()
-	{
-		# code...
-	}
+	// public function get_index()
+	// {
+	// 	# code...
+	// }
 
-	public function post_index()
-	{
-		# code...
-	}
+	// public function post_index()
+	// {
+	// 	# code...
+	// }
 	//End of RESTful Controller Setup
 
 	public function action_index()
