@@ -1,12 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>My Testing Site</title>
-	<meta name="viewport" content="width=device-width">
-</head>
-<body>
-	<?php echo "Welcome to {$place}, {$name}!" ?>
+@layout('master')
 
-</html>
+@section('nav')
+	@parent
+	<li>Within My View</li>
+@endsection
+
+@section('content')
+	Here is the index view.
+@endsection
