@@ -1,8 +1,7 @@
 <?php
 
 
-// Controller Routes
-// Route::controller('home');
+Route::controller('home');
 
 // Route::get('superwelcome/(:any)/(:any)', 'home@welcome');
 
@@ -11,12 +10,12 @@
 
 
 
-Route::get('/', function()
-{
-	return View::make('home.index', array(
-		'items' => array('Item 1', 'Item 2', 'Item 3', 'Item 4')
-	));
-});
+// Route::get('/', function()
+// {
+// 	return View::make('home.index', array(
+// 		'items' => array('Item 1', 'Item 2', 'Item 3', 'Item 4')
+// 	));
+// });
 
 /*
 |--------------------------------------------------------------------------
