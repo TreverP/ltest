@@ -1,21 +1,8 @@
 <?php
 
 
-Route::controller('home');
+Route::controller('account');
 
-// Route::get('superwelcome/(:any)/(:any)', 'home@welcome');
-
-// Gives access to all routes located in the Controller folder
-// Route::controller(Controller::detect());
-
-
-
-// Route::get('/', function()
-// {
-// 	return View::make('home.index', array(
-// 		'items' => array('Item 1', 'Item 2', 'Item 3', 'Item 4')
-// 	));
-// });
 
 /*
 |--------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 class Create_Users_Table {
 
