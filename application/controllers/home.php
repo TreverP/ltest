@@ -20,6 +20,24 @@ class Home_Controller extends Base_Controller {
 		echo "This is the logout action";
 	}
 
+	public function action_welcome($name, $place)
+	{
+
+		// This is displaying the data from the Controller
+		// $place = ucfirst($place);
+		// $name = ucfirst($name);
+		// echo "Welcome to {$place}, {$name}!";
+
+
+		// This is displaying the data from the View. This is better design
+		$data = array(
+					'name' => $name, 
+					'place' => $place);
+
+		return View::make('Welcome', $data);
+	}
+
+
 	// public function action_welcome($name, $place)
 	// {
 	// 	$data = array(
